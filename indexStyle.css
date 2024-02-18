@@ -10,13 +10,6 @@ body {
     height: 6vh;
 }
 
-.navbar-brand {
-    color: #e11818;
-}
-
-.navbar-brand:hover {
-    color: #e70f0f;
-}
 
 .navbar-nav .nav-link {
     color: #000000;
