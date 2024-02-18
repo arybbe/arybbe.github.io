@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #1c94e4;
+    height: 6vh;
+}
+
+.navbar-brand {
+    color: #e11818;
+}
+
+.navbar-brand:hover {
+    color: #e70f0f;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+
+
+#landing {
+    position: relative;
+    height: 94vh;
+}
+
+.landing-image {
+    background-image: url('pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-text {
+    text-align: center;
+}
+
+.landing-text h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+}
+
+.landing-text p {
+    color: #ffffff;
+    font-size: 1.5em;
+}
